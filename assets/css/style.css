@@ -616,7 +616,7 @@ span {
     display: inline-block;
     position: relative;
     text-align: center;
-    margin-left: 50px;
+    margin-left: 0px;
     padding-top: 100px;
     padding-bottom: 100px;
 }
@@ -635,6 +635,11 @@ span {
         width: 380px;
         height: 380px;
     }
+
+    /* .about-content{
+        width: 380px;
+        height: 380px;
+    } */
 }
 
 .about-image .about-shape::before {
@@ -664,6 +669,9 @@ span {
 (max-width: 767px) {
     .about-image .app {
         max-width: 250px;
+    }
+    .about-content{
+        max-width: 340px;
     }
 }
 
