@@ -805,6 +805,20 @@ span {
     color: #05A0F6;
 }
 
+@media only screen and (min-width: 768px) and (max-width: 991px),
+(max-width: 767px) {
+    
+    .testimonial-section .single-testimonial .quote {
+        position: absolute;
+        top: 50px;
+        right: 50px;
+        font-size: 40px;
+        line-height: 1;
+        color: #05A0F6;
+    }
+}
+
+
 /* ------ corecubes css --------- */
 
 
